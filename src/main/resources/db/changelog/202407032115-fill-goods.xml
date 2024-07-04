@@ -1,0 +1,20 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet id="202407032115-fill-goods" author="author">
+        <insert tableName="goods">
+            <column name="mark_id">1</column>
+            <column name="count">1000</column>
+            <column name="price">5000</column>
+        </insert>
+        <insert tableName="goods">
+            <column name="mark_id">2</column>
+            <column name="count">300</column>
+            <column name="price">8000</column>
+        </insert>
+        <insert tableName="goods">
+            <column name="mark_id">3</column>
+            <column name="count">100</column>
+            <column name="price">15000</column>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

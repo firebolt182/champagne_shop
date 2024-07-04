@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/202407031655-create-mark.xml
+  - include:
+      file: db/changelog/202407031805-fill-mark.xml
+  - include:
+      file: db/changelog/202407032105-create-goods.xml
+  - include:
+      file: db/changelog/202407032115-fill-goods.xml
+
